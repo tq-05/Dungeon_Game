@@ -31,10 +31,8 @@ public class Game1 : Game
     { 
         // TODO: Add your initialization logic here 
          
-        _graphics.PreferredBackBufferHeight = 
-GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height; 
-        _graphics.PreferredBackBufferWidth = 
-GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width; 
+        _graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height; 
+        _graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width; 
         _graphics.IsFullScreen = true; 
         // window size adapts to current device resolution and is in full screen 
  

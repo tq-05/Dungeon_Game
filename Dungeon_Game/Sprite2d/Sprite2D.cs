@@ -30,16 +30,12 @@ public class Sprite2d
     { 
         if (texture != null) 
         { // ensures that there is a value which can be loaded 
-            Globals._spriteBatch.Draw(this.texture, new Rectangle( (int)(pos.X), 
-(int)(pos.Y),(int)(dim.X),(int)(dim.Y)),null,Color.White, 0.0f, new 
-Vector2(texture.Bounds.Width/2,texture.Bounds.Height/2), new SpriteEffects() , 
-0); 
+            Globals._spriteBatch.Draw(this.texture, new Rectangle( (int)(pos.X), (int)(pos.Y),(int)(dim.X),(int)(dim.Y)),null,Color.White, 0.0f, new Vector2(texture.Bounds.Width/2,texture.Bounds.Height/2), new SpriteEffects() , 0); 
         } 
     } 
-        public Rectangle spriteBounds() 
+    public Rectangle spriteBounds() 
     { 
-        return new Rectangle((int)(pos.X - dim.X / 2), (int)(pos.Y - dim.Y / 
-2),(int)(dim.X),(int)(dim.Y)); 
+        return new Rectangle((int)(pos.X - dim.X / 2), (int)(pos.Y - dim.Y / 2),(int)(dim.X),(int)(dim.Y)); 
     } 
  
      

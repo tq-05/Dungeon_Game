@@ -41,8 +41,10 @@ using System.Net.Mime;
         { 
             button = new Buttons("PLAY",new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (400,100)); 
             buttons.Add(button); 
-            font = new Font2d("bigFont", new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.2),(float)(Globals._graphics.PreferredBackBufferHeight *0.2)), "DUNGEON GAME"); 
-            text.Add(font); 
+            font = new Font2d("bigFont", new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.5),(float)(Globals._graphics.PreferredBackBufferHeight *0.3)), "DUNGEON GAME"); 
+            text.Add(font);
+            font = new Font2d("mediumFont", new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), "Play"); 
+            text.Add(font);  
         } 
          
  
@@ -59,7 +61,10 @@ using System.Net.Mime;
         } 
         if (text.Count > 0) 
         { 
-            text[0].Draw(); 
+            for(int i = 0; i < text.Count; i++)
+            {
+                text[i].Draw(); 
+            }
         } 
          
     } 
