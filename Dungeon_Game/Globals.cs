@@ -11,9 +11,11 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-public class Globals 
+public class Globals : Game
 { 
     public static ContentManager content; 
+    
+    public static GraphicsDevice _graphicsDevice;
     public static SpriteBatch _spriteBatch; 
     public static GraphicsDeviceManager _graphics; 
     public static GameTime gameTime; 

@@ -36,15 +36,16 @@ public class Game1 : Game
         _graphics.IsFullScreen = true; 
         // window size adapts to current device resolution and is in full screen 
  
-        _graphics.ApplyChanges();
-        mouseState = new myMouse(); 
-        world = new WorldState(mouseState); 
+        _graphics.ApplyChanges(); 
         base.Initialize(); 
     } 
  
     protected override void LoadContent() 
     { 
         Globals._spriteBatch = new SpriteBatch(GraphicsDevice); 
+        Globals._graphicsDevice = GraphicsDevice;
+        mouseState = new myMouse(); 
+        world = new WorldState(mouseState);
  
         // TODO: use this.Content to load your game content hered 
  

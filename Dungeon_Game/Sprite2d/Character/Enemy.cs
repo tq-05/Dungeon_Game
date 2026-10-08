@@ -31,6 +31,7 @@ public class Enemy : Characters
     #endregion 
     public Enemy(string Model, Vector2 POS, Vector2 DIM, int ENEMYNUMBER) : base(Model, new Vector2(200,200), new Vector2(200,200)) 
     { 
+        loadModel(Model);
         file = new myFile(); 
         plan = new List<string>(); 
         actionWeights = new Dictionary<string, int>(); 

@@ -34,11 +34,9 @@ public class Player : Characters
     #endregion 
  
      
-    public Player(string Model, Vector2 POS , Vector2 DIM, myMouse MOUSE, 
-dungeonGenerator DUNGEON) : base("Player",new 
-Vector2(Globals._graphics.PreferredBackBufferWidth / 2, 
-Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,200)) 
+    public Player(string Model, Vector2 POS , Vector2 DIM, myMouse MOUSE, dungeonGenerator DUNGEON) : base("Player",new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,200)) 
     { 
+        loadModel(Model);
         Console.WriteLine(Globals.selectedFileNumber + " - this is the filenumber"); 
         file = new myFile(); 
         dungeon = DUNGEON; 

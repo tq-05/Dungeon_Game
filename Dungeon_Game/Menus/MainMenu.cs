@@ -43,7 +43,7 @@ using System.Net.Mime;
             buttons.Add(button); 
             font = new Font2d("bigFont", new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.5),(float)(Globals._graphics.PreferredBackBufferHeight *0.3)), "DUNGEON GAME"); 
             text.Add(font);
-            font = new Font2d("mediumFont", new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), "Play"); 
+            font = new Font2d("mediumFont", new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), "PLAY"); 
             text.Add(font);  
         } 
          

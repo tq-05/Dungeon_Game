@@ -20,7 +20,6 @@ public class Sprite2d
     { 
         pos=POS; // gets the models's position 
         dim=DIM; // gets the models's dimensions 
-        texture = Globals.content.Load<Texture2D>(Model); //Loads the model which can be drawn later 
  
     } 
     public virtual void Update() 
@@ -37,6 +36,16 @@ public class Sprite2d
     { 
         return new Rectangle((int)(pos.X - dim.X / 2), (int)(pos.Y - dim.Y / 2),(int)(dim.X),(int)(dim.Y)); 
     } 
+
+    public virtual void loadModel(string Model)
+    {
+        texture = Globals.content.Load<Texture2D>(Model); //Loads the model which can be drawn later 
+    }
+
+    public virtual void loadModel(Texture2D texture)
+    {
+        this.texture = texture;
+    }
  
      
 } 

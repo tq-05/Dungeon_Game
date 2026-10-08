@@ -16,6 +16,7 @@ public class Characters : Sprite2d
  
     public Characters(string Model, Vector2 POS , Vector2 DIM) : base(Model,new Vector2(Globals._graphics.PreferredBackBufferWidth / 2, Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,200)) 
     { 
+        loadModel(Model);
         healthPoints = 5; 
         speed = 40f; 
     } 
