@@ -26,7 +26,6 @@ public class myMouse
         // gets the state of the mouse every frame 
         mousePos = new Vector2(mouseState.X, mouseState.Y); 
          
- 
         if (mouseState.LeftButton == ButtonState.Pressed) 
         { 
             IsLeftMouseButtonPressed = true; 
@@ -39,5 +38,10 @@ public class myMouse
         // this is to check if the user has clicked so an attack can be  performed. 
          
     } 
+
+    public Vector2 getMousePos()
+    {
+        return mousePos;
+    }
 } 
  

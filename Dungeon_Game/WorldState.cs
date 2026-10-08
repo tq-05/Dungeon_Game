@@ -51,7 +51,7 @@ public class WorldState{
         } 
         else 
         { 
- if (!fileSelection.fileSelected()) 
+            if (!fileSelection.fileSelected()) 
             { 
                 fileSelection.Update(); 
             } 
@@ -93,7 +93,7 @@ public class WorldState{
     public void getExit() // gets the functionality of the settings 
     { 
         if (Keyboard.GetState().IsKeyDown(Keys.Escape)) 
- { 
+        { 
             exitKeyPressed = true; 
         } 
         if(exitKeyPressed) 

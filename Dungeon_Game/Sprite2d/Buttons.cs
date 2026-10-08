@@ -13,15 +13,35 @@ public class Buttons : Sprite2d
     private Texture2D buttonTexture;
      
  
-    public Buttons(string Model, Vector2 POS , Vector2 DIM) : base(Model,POS,DIM) 
+    public Buttons(string type, Vector2 POS , Vector2 DIM) : base(type,POS,DIM) 
     { 
         buttonDim = DIM; 
         buttonPos = POS; 
-        buttonTexture = new Texture2D(Globals._graphicsDevice,1,1);
-        buttonTexture.SetData(new[] {Color.Green});
+        setButtonColour(type);
         loadModel(buttonTexture);
          
     } 
+
+    public void setButtonColour(string type)
+    {
+        switch(type)
+        {
+            case "PLAY":
+            buttonTexture = new Texture2D(Globals._graphicsDevice,1,1);
+            buttonTexture.SetData(new[] {Color.Green});
+            break;
+            case "DELETE":
+            buttonTexture = new Texture2D(Globals._graphicsDevice,1,1);
+            buttonTexture.SetData(new[] {Color.Red});
+            break;
+            case "LOAD":
+            buttonTexture = new Texture2D(Globals._graphicsDevice,1,1);
+            buttonTexture.SetData(new[] {Color.White});
+            break;
+            
+
+        }
+    }
      
     public bool isClicked(Vector2 mousePos, bool mouseClicked) 
     { 

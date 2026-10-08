@@ -43,25 +43,25 @@ public class fileMenu
             switch(numberOfloadButtons) 
             { 
                 case 0: 
-                    loadButton = new Buttons("loadFile",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.2), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); loadButtons.Add(loadButton); 
-                    deleteButton = new Buttons("deleteButton",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.16), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
+                    loadButton = new Buttons("LOAD",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.2), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); loadButtons.Add(loadButton); 
+                    deleteButton = new Buttons("DELETE",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.16), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
                     deleteButtons.Add(deleteButton); 
                     fileUI = new Sprite2d("file1",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.2), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,500)); 
                     fileInterfaces.Add(fileUI); 
                     Console.WriteLine("loadButton one has been added to the list"); 
                     break; 
                 case 1: 
-                    loadButton = new Buttons("loadFile",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.5), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); loadButtons.Add(loadButton); 
-                    deleteButton = new Buttons("deleteButton",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.46), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
+                    loadButton = new Buttons("LOAD",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.5), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); loadButtons.Add(loadButton); 
+                    deleteButton = new Buttons("DELETE",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.46), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
                     deleteButtons.Add(deleteButton); 
                     fileUI = new Sprite2d("file2",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.5), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,500)); 
                     fileInterfaces.Add(fileUI); 
                     Console.WriteLine("loadButton two has been added to the list"); 
                     break; 
                 case 2: 
-                    loadButton = new Buttons("loadFile",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.8), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); 
+                    loadButton = new Buttons("LOAD",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.8), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,50)); 
                     loadButtons.Add(loadButton); 
-                    deleteButton = new Buttons("deleteButton",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.76), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
+                    deleteButton = new Buttons("DELETE",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.76), (float)(Globals._graphics.PreferredBackBufferHeight *0.385)), new Vector2 (50,25)); 
                     deleteButtons.Add(deleteButton);
                     fileUI = new Sprite2d("file3",new Vector2((float)(Globals._graphics.PreferredBackBufferWidth*0.8), Globals._graphics.PreferredBackBufferHeight / 2), new Vector2 (200,500)); 
                     fileInterfaces.Add(fileUI); 
