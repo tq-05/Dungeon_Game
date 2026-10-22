@@ -17,8 +17,8 @@ public class myFile
     public myFile() 
     { 
         file1Path = @"C:\Users\marti\Downloads\file1.txt"; 
-        file2Path = @"C:\Users\marti\Downloads\file1.txt"; 
-        file3Path = @"C:\Users\marti\Downloads\file1.txt"; 
+        file2Path = @"C:\Users\marti\Downloads\file2.txt"; 
+        file3Path = @"C:\Users\marti\Downloads\file3.txt"; 
         fileData = new string[2]; 
     } 
  

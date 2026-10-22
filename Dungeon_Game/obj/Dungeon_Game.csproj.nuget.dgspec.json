@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj": {}
+    "c:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj": {
+    "c:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
+        "projectUniqueName": "c:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
         "projectName": "Dungeon_Game",
-        "projectPath": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
+        "projectPath": "c:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\obj\\",
+        "outputPath": "c:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config"

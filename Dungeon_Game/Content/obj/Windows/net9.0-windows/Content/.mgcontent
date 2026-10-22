@@ -4,22 +4,20 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/../../../../../../../../Downloads/loadFile.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/bigFont.spritefont</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/deleteButton.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file1.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file2.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file3.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/font.spritefont</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/gun.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/loadFile.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/mediumFont.spritefont</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/play.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/select.png</File>
-    <File>C:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/sword.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/bigFont.spritefont</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/deleteButton.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file1.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file2.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/file3.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/font.spritefont</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/gun.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/loadFile.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/mediumFont.spritefont</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/play.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/select.png</File>
+    <File>c:/Users/marti/OneDrive/CVs, Projects, Cover Letters/Projects/AQA A Level NEA Project/ProjectCode/Dungeon_Game/Dungeon_Game/Content/sword.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>loadFile.png</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
