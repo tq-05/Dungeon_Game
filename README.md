@@ -1,1 +1,1 @@
-The current game DOES NOT work, due to the loss of the original sprite files as well as it was built to be played on a specific laptop which i no longer own
+A video game project that was made during 2025 for the Non Exam Assessment for AQA Computer Science.
