@@ -4923,11 +4923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\Documents\\GitHubRepos\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
       "projectName": "Dungeon_Game",
-      "projectPath": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
+      "projectPath": "C:\\Users\\marti\\Documents\\GitHubRepos\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\obj\\",
+      "outputPath": "C:\\Users\\marti\\Documents\\GitHubRepos\\Dungeon_Game\\Dungeon_Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config"

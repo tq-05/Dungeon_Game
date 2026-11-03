@@ -20,7 +20,6 @@ public class Sprite2d
     { 
         pos=POS; // gets the models's position 
         dim=DIM; // gets the models's dimensions 
- 
     } 
     public virtual void Update() 
     { 

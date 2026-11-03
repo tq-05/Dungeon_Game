@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ExH8ogyzesE=",
+  "dgSpecHash": "bEZHXENpJkI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\OneDrive\\CVs, Projects, Cover Letters\\Projects\\AQA A Level NEA Project\\ProjectCode\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
+  "projectFilePath": "c:\\Users\\marti\\Documents\\GitHubRepos\\Dungeon_Game\\Dungeon_Game\\Dungeon_Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
